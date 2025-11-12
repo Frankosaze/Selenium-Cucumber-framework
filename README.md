@@ -12,6 +12,7 @@
 ![JUnit](https://img.shields.io/badge/JUnit-Test%20Runner-red?logo=junit5)
 ![Status](https://img.shields.io/badge/Status-Active-blue)
 
+
 A **scalable UI Test Automation Framework** built using **Selenium WebDriver + Cucumber BDD + JUnit**, developed to demonstrate clean automation architecture and real-world testing practices.  
 This framework supports **behavior-driven testing**, **POM structure**, and is fully **CI/CD ready** with Jenkins pipeline execution and **Maven Surefire reporting**.
 
