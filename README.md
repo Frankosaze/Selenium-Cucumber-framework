@@ -16,9 +16,8 @@
 A **scalable UI Test Automation Framework** built using **Selenium WebDriver + Cucumber BDD + JUnit**, developed to demonstrate clean automation architecture and real-world testing practices.  
 This framework supports **behavior-driven testing**, **POM structure**, and is fully **CI/CD ready** with Jenkins pipeline execution and **Maven Surefire reporting**.
 
----
 
-## 🎯 Purpose of This Framework
+## Purpose of This Framework
 
 The goal of this framework is to:
 
@@ -28,9 +27,8 @@ The goal of this framework is to:
 - Support **continuous testing** with Jenkins CI/CD
 - Produce **high-quality test execution reports** via Maven Surefire
 
----
 
-## 🏗️ Framework Architecture
+## Framework Architecture
 
                          ┌─────────────────────────┐
                          │       Feature Files     │
@@ -74,9 +72,8 @@ This layered structure ensures the framework remains:
 ✅ Extensible  
 ✅ Scalable  
 
----
 
-## 🧠 Tech Stack Overview
+## Tech Stack Overview
 
 | Component | Technology | Purpose |
 |----------|------------|---------|
@@ -89,9 +86,9 @@ This layered structure ensures the framework remains:
 | CI/CD | Jenkins | Automated pipeline execution |
 | Reporting | Maven Surefire Report | HTML test reporting |
 
----
 
-## 📁 Project Structure
+
+## Project Structure
 Osazeseleniumframework
 ```
 ┣ src/main/java
@@ -105,7 +102,7 @@ Osazeseleniumframework
 
 ```
 
-## 🧩 Example Feature File (Gherkin)
+## Example Feature File (Gherkin)
 ```gherkin
 Feature: Login Functionality
 
@@ -155,7 +152,7 @@ public class LoginSteps {
 
 ```
 
-## 🚀 Future Enhancements
+## Future Enhancements
 The following improvements are planned to make the framework  more robust:
 | Enhancement                 | Benefit                       |
 | --------------------------- | ----------------------------- |
@@ -165,7 +162,7 @@ The following improvements are planned to make the framework  more robust:
 | Screen recording on failure | Better debugging support      |
 
 
-## 👨‍💻 Author
+## Author
 
 **Frank Osaze**  
 Software QA / Test Engineer  
