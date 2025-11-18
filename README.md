@@ -68,12 +68,12 @@ The goal of this framework is to:
 
 This layered structure ensures the framework remains:
 
-✅ Maintainable  
-✅ Extensible  
-✅ Scalable  
+- Maintainable  
+- Extensible  
+- Scalable  
 
 
-## Tech Stack Overview
+## Tech Stack
 
 | Component | Technology | Purpose |
 |----------|------------|---------|
@@ -87,18 +87,17 @@ This layered structure ensures the framework remains:
 | Reporting | Maven Surefire Report | HTML test reporting |
 
 
-
 ## Project Structure
 Osazeseleniumframework
 ```
 ┣ src/main/java
 ┃ ┗ Pages
 ┣ src/test/java
-┃ ┣ StepDefinitions (glue code)
-┃ ┗ Runner/ # JUnit Test Runner
+┃ ┣ StepDefinitions
+┃ ┗ Runner
 ┣ src/test/resources
-┃ ┣ feature (Gherkin feature files)
-┣ pom.xml (Dependencies & plugins)
+┃ ┣ feature
+┣ pom.xml
 
 ```
 
@@ -114,7 +113,7 @@ Feature: Login Functionality
 
 ```
 
-## 🧩 Example Step Definition
+## Example Step Definition
 ```java
 package stepDefinitions;
 
