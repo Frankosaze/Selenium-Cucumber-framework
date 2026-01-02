@@ -88,7 +88,7 @@ This layered structure ensures the framework remains:
 
 
 ## Project Structure
-Osazeseleniumframework
+Selenium-Cucumber-framework
 ```
 ┣ src/main/java
 ┃ ┗ Pages
@@ -101,7 +101,7 @@ Osazeseleniumframework
 
 ```
 
-## Example Feature File (Gherkin)
+## Example of Feature File (Gherkin) used
 ```gherkin
 Feature: Login Functionality
 
@@ -113,7 +113,7 @@ Feature: Login Functionality
 
 ```
 
-## Example Step Definition
+## Example of Step Definition used
 ```java
 package stepDefinitions;
 
